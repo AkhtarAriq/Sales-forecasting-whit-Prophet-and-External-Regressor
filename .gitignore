@@ -1,0 +1,25 @@
+# Source datasets (keep local)
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+*.tsv
+*.parquet
+/data/
+/datasets/
+
+# Generated forecasts, tables, plots, and local notebook backups
+/prophet_sultra_outputs/
+/.local-backups/
+
+# Notebook and Python caches
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local credentials
+.env
+.env.*
+!.env.example
